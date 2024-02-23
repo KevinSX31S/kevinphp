@@ -1,29 +1,29 @@
 <html>
-    <head>Label = "Welcome TO App Web" </head>
+    <head>
+</head>
     <body>
-    <table>
-  <tr>
-    <th>matriz_frutas</th>
-  </tr>
 <?php
-$matriz_frutas = array{
-    array1("Manzana","Banana","Cereza"),
+$tablas_dinamicas = array{
+    array1("Nombres","Apellidos","Correo"),
     array2("Damasco","Framburca","Naranja"),
     array3("Kiwi","Pera","Uva"),
 };
-echo "<br>Recorriendo con for:>b>";
-$filas  = count($matriz_frutas);
-for($i = 0 ;$i < $filas ; $i++){
-    $colummnas= count($matriz_frutas);
-    for ($j < 0 ; $j < $colummnas; i++){
-        echo "Fila $i , Columna $J" . $matriz_frutas;
-    }
-}
-
 ?>
+<table id="tabla" class="table table-bordered">
+<thead>
+    <tr style = "width:1000px">
+    <th style = "width:45px"> num</th>
+    <th style = "width:400px"> Nombres</th>
+    <th style = "width:250px"> Usuario</th>
+    <th style = "width:250px"> Grupo</th>
+    <th colspan="2"style="width 150px">style</th>
+    </tr>
+</thead>
+</tbody>
 </table>
 </body>
 </html>
+
 
 
 
