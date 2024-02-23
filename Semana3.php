@@ -9,7 +9,7 @@ $tablas_dinamicas = array{
     array3("Kiwi","Pera","Uva"),
 };
 ?>
-<table id="tabla" class="table table-bordered">
+<table id="tabla" class="table table-bordered table-hover table-responsable">
 <thead>
     <tr style = "width:1000px">
     <th style = "width:45px"> num</th>
@@ -20,13 +20,16 @@ $tablas_dinamicas = array{
     </tr>
 </thead>
 </tbody>
+<tr style = "width: 1000px">
+<tr style = "width: 400px">I</td>
+<tr style = "width: 400px"><?php echo "Julio Cesar" ?></td>
+<tr style = "width: 400px">Administrador</td>
+<tr style = "width: 400px">Admin</td>
+<tr style = "width: 400px"></td>
+
 </table>
 </body>
 </html>
-
-
-
-
 
 
 
