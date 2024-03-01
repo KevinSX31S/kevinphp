@@ -1,0 +1,9 @@
+body{
+	margin: 0px;
+}
+.derecha{
+	background-color: blue;
+	height: 100%;
+	width: 300px;
+	margin: 0px;
+}

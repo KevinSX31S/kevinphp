@@ -1,0 +1,25 @@
+.contenedor{
+	border: 1px solid #ccc;
+	height: auto;
+	width: 200px;
+	margin: auto;
+	font-family: Arial;
+	border-radius: 15px;
+	
+}
+.boton{
+	text-align: center;
+	background-color: red;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	margin: auto;
+}
+h3{
+	text-align: center;
+	padding-left: 0;
+}
+.tabla{
+	padding-left: 20px;
+	padding-left: 20px;
+}

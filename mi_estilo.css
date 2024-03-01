@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.contenedor { /*creado pór uno mismo mayormente una clase*/
+	background-color:blue;
+	color:#fff;
+	
+}
+#ejemplo{ /*para id*/
+	
+	}
+	
+table{ /*para terminos ya establecidos*/
+	width:70%;
+	height:auto;
+	border:1px solid #ccc;
+	text-align:center;
+	margin:auto;
+	background-color:#fff;
+}
+h1{
+font-size:100px;
+text-align:center;
+color:#fff;
+font-family:"Arial Black", Gadget, sans-serif;
+}
+tr:hover{
+	background-color:blue;
+	color:#fff;
+	}
+td{
+	border:1px solid #ccc;
+	}
+button:hover{
+	background-color:#00F;
+	color:white;
+	cursor:pointer;
+}
+input[type="button"]:hover{
+	background-color:#00F;
+	color:white;	
+}
+body{
+background-color:#73B6BC;
+}
+input[type="text"]:hover{
+	background-color: darkgrey;
+	color: #0E0CBC;
+}
